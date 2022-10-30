@@ -19,8 +19,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
+var votingAge = 19
+if (votingAge = 19) {
+  console.log(true)
+} else {
+  console.log(false)
+}
 
 /*
 Task 1b - Values (not auto tested)
@@ -64,6 +68,10 @@ Do the following:
 function multiply(num1, num2){
   return num1 * num2;
 }
+function multiply(1, 2){
+  return 3 * 8;
+}
+
 
 
 
@@ -77,9 +85,10 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(i){
+  dogYears(i*7)
 }
+console.log(dogYears)
 
 
 
