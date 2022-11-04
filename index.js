@@ -281,9 +281,19 @@ Using the grade function below do the following:
 */
 
 function grade(percentLetter){
-
+if(percentLetter >= 90){
+  return 'you got an A'
+} else if(percentLetter >= 80){
+return 'you got a B'
+}else if(percentLetter >=70){
+return 'you got a C'
+}else if(percentLetter >=60){
+return 'you got a D'
+}else(percentLetter >=0);{
+  return 'you got an F'
 }
-
+}
+console.log('task 7', grade(20));
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
